@@ -1,18 +1,16 @@
 {
   "activationEvents": [],
-  "categories": [
-    "Other"
-  ],
+  "categories": ["Other"],
   "contributes": {
     "commands": [
       {
-        "command": "commentput.insertComment",
-        "title": "Insert Comment"
+        "command": "commentput.insertPrefix",
+        "title": "Insert Comment Prefix"
       }
     ],
     "configuration": {
       "properties": {
-        "commentput.languageComments": {
+        "commentput.languagePrefixes": {
           "additionalProperties": {
             "type": "string"
           },
@@ -81,7 +79,7 @@
     },
     "keybindings": [
       {
-        "command": "commentput.insertComment",
+        "command": "commentput.insertPrefix",
         "key": "ctrl+shift+/",
         "mac": "cmd+shift+/",
         "when": "editorTextFocus"

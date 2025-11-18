@@ -48,7 +48,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7.0.0
         with:
           branch: typedoc
-          commit_message: "auto: Update TypeDoc"
-          commit_user_name: "gh-actions[bot]"
-          commit_user_email: "action@github.com"
-          commit_author: "gh-actions[bot] <action@github.com>"
+          commit_message: 'auto: Update TypeDoc'
+          commit_user_name: 'gh-actions[bot]'
+          commit_user_email: 'action@github.com'
+          commit_author: 'gh-actions[bot] <action@github.com>'

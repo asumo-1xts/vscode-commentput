@@ -36,12 +36,12 @@ You could assign it to an unused key on your keyboard.
 ```jsonc
 {
   "key": "ctrl+alt+/", // Use alt instead of shift
-  "command": "commentput.insertComment",
+  "command": "commentput.insertPrefix",
   "when": "editorTextFocus"
 }
 ```
 
-### Replace or add your prefix
+### Modify or add your prefix
 
 **The languages and prefix supported by default is [here](.config/languages.md).**
 
@@ -49,7 +49,7 @@ You could assign it to an unused key on your keyboard.
 
 ```jsonc
 {
-  "commentput.languageComments": {
+  "commentput.languagePrefixes": {
     "c": "/* ", // Replace the default prefix
     "custom-language": "## " // Add otehr language's prefix
   }

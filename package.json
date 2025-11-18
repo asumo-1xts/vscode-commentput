@@ -1,0 +1,127 @@
+{
+  "activationEvents": [],
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "commentput.insertComment",
+        "title": "Insert Comment"
+      }
+    ],
+    "configuration": {
+      "properties": {
+        "commentput.languageComments": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "default": {
+            "bat": "REM ",
+            "bibtex": "% ",
+            "biblatex": "% ",
+            "c": "// ",
+            "clojure": ";; ",
+            "cmake": "# ",
+            "coffeescript": "# ",
+            "cpp": "// ",
+            "csharp": "// ",
+            "css": "/* ",
+            "cuda-cpp": "// ",
+            "dart": "// ",
+            "dockercompose": "# ",
+            "dockerfile": "# ",
+            "go": "// ",
+            "haskell": "-- ",
+            "html": "<!-- ",
+            "ini": "; ",
+            "java": "// ",
+            "javascript": "// ",
+            "javascriptreact": "// ",
+            "jsonc": "// ",
+            "julia": "# ",
+            "kotlin": "// ",
+            "latex": "% ",
+            "less": "// ",
+            "lisp": ";; ",
+            "lua": "-- ",
+            "makefile": "# ",
+            "markdown": "<!-- ",
+            "matlab": "% ",
+            "objective-c": "// ",
+            "objective-cpp": "// ",
+            "perl": "# ",
+            "php": "// ",
+            "powershell": "# ",
+            "python": "# ",
+            "r": "# ",
+            "ruby": "# ",
+            "rust": "// ",
+            "sass": "// ",
+            "scala": "// ",
+            "scheme": ";; ",
+            "scss": "// ",
+            "shellscript": "# ",
+            "sql": "-- ",
+            "swift": "// ",
+            "tex": "% ",
+            "toml": "# ",
+            "typescript": "// ",
+            "typescriptreact": "// ",
+            "vb": "' ",
+            "vue": "// ",
+            "xml": "<!-- ",
+            "yaml": "# "
+          },
+          "description": "Comment prefix for each language. You can add new languages or modify existing ones.",
+          "type": "object"
+        }
+      },
+      "title": "Commentput"
+    },
+    "keybindings": [
+      {
+        "command": "commentput.insertComment",
+        "key": "ctrl+shift+/",
+        "mac": "cmd+shift+/",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "description": "Insert comment snippets based on the current file's language",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vscode/test-cli": "^0.0.4",
+    "depcheck": "^1.4.7",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.6.2",
+    "tsc": "^2.0.4",
+    "typedoc": "^0.28.14",
+    "typedoc-theme-hierarchy": "^6.0.0",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.47.0",
+    "vsce": "^2.15.0"
+  },
+  "displayName": "Commentput",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "main": "./out/extension.js",
+  "name": "commentput",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "docs": "yarn typedoc",
+    "format": "yarn prettier --config .vscode/.prettierrc.json --write .config/*.json .github .vscode src *.json && rm -rf node_modules",
+    "lint": "yarn eslint --config .vscode/eslint.config.ts src/**/*",
+    "pretest": "yarn compile && yarn lint",
+    "test": "vscode-test",
+    "vscode:prepublish": "yarn compile",
+    "watch": "yarn tsc -watch -p ./"
+  },
+  "version": "0.0.1"
+}

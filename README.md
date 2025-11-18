@@ -43,8 +43,6 @@ You could assign it to an unused key on your keyboard.
 
 ### Modify or add your prefix
 
-**The languages and prefix supported by default is [here](.config/languages.md).**
-
 `settings.json`
 
 ```jsonc
@@ -56,4 +54,6 @@ You could assign it to an unused key on your keyboard.
 }
 ```
 
-If you would like support for a new language, please let us know via an issue.
+**The languages and prefix supported by default is [here](.config/languages.md).**
+
+If you would like support for a new language, please let us know via [Issues](https://github.com/asumo-1xts/vscode-commentput/issues).

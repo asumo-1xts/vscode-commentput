@@ -1,4 +1,4 @@
-# The default
+# Supported by default
 
 | Language              | Comment prefix         |
 |-----------------------|------------------------|

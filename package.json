@@ -1,6 +1,8 @@
 {
   "activationEvents": [],
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
   "contributes": {
     "commands": [
       {
@@ -16,8 +18,8 @@
           },
           "default": {
             "bat": "REM ",
-            "bibtex": "% ",
             "biblatex": "% ",
+            "bibtex": "% ",
             "c": "// ",
             "clojure": ";; ",
             "cmake": "# ",
@@ -111,6 +113,11 @@
   },
   "main": "./out/extension.js",
   "name": "commentput",
+  "publisher": "asumo-1xts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asumo-1xts1/vscode-commentput.git"
+  },
   "scripts": {
     "compile": "tsc -p ./",
     "docs": "yarn typedoc",

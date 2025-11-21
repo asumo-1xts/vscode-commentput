@@ -111,8 +111,8 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "icon": "./image/logo.png",
-  "main": "./out/extension.js",
+  "icon": "image/logo.png",
+  "main": "out/extension.js",
   "name": "commentput",
   "publisher": "asumo-1xts",
   "repository": {

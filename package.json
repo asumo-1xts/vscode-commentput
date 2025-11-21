@@ -1,8 +1,6 @@
 {
   "activationEvents": [],
-  "categories": [
-    "Snippets"
-  ],
+  "categories": ["Snippets"],
   "contributes": {
     "commands": [
       {
@@ -112,12 +110,7 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "files": [
-    "out/",
-    "image/",
-    "README.md",
-    "LICENSE"
-  ],
+  "files": ["out/", "image/", "README.md", "LICENSE"],
   "icon": "image/logo.png",
   "main": "out/extension.js",
   "name": "commentput",

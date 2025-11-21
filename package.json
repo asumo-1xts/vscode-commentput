@@ -1,7 +1,7 @@
 {
   "activationEvents": [],
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "contributes": {
     "commands": [

@@ -1,0 +1,9 @@
+{
+  "entryPoints": ["../src"],
+  "entryPointStrategy": "expand",
+  "name": "vscode-commentput",
+  "out": "../docs",
+  "plugin": ["typedoc-theme-hierarchy"],
+  "theme": "hierarchy",
+  "tsconfig": "../tsconfig.json"
+}

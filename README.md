@@ -30,7 +30,7 @@ Simply insert a comment prefix where the cursor is positioned.
 
 ## Getting started
 
-Marketplace: https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput
+See [Marketplace](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput) or search `commentput` from VScode.
 
 Unless there are special circumstances, simply installing it is sufficient.
 

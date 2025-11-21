@@ -127,7 +127,8 @@
     "test": "vscode-test",
     "vscode:prepublish": "yarn compile",
     "watch": "yarn tsc -watch -p ./",
-    "publish": "yarn vsce publish --no-yarn"
+    "publish": "yarn vsce publish --no-yarn",
+    "package": "yarn vsce package --no-yarn"
   },
   "version": "0.0.6"
 }

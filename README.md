@@ -21,7 +21,17 @@ Simply insert a comment symbol where the cursor is positioned.
 
 ## Getting started
 
-<!-- TODO: ダウンロードリンク -->
+### Installation
+
+You can install this extension from the [GitHub Releases](https://github.com/asumo-1xts/vscode-commentput/releases) page.
+
+1. Download the latest `.vsix` file from the releases page
+2. Open VS Code
+3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the Command Palette
+4. Type "Extensions: Install from VSIX..." and select it
+5. Browse to the downloaded `.vsix` file and install it
+
+Alternatively, you can search for "commentput" in the VS Code Extensions marketplace once it's published.
 
 ## Options
 

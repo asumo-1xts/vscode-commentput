@@ -1,17 +1,13 @@
 <h1 align="center">
+  <img src="./image/logo.png" width="5%">
+  &emsp;
   commentPut - VScode extention
 </h1>
 
-<div text align="center">
-  <img src="./image/logo.png" width="5%">
-  &emsp;
-  <strong>A simple alternative to Ctrl+/.</strong>
-</div>
-
-<br/>
-
 <div align="center">
   
+  <strong>A simple alternative to Ctrl+/.</strong>
+
   [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/asumo-1xts.commentput?color=2F80ED)](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
   [![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/asumo-1xts.commentput?color=2F80ED)](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
   [![MIT](https://img.shields.io/badge/License-MIT-green)](/LICENSE)
@@ -19,18 +15,14 @@
   [![Yarn](https://img.shields.io/badge/Built_with_Yarn-v4.9.2-%232C8EBB?logo=yarn&logoColor=white)](https://yarnpkg.com/)
   [![ESLint](https://img.shields.io/badge/Lint_with-ESLint-%234B32C3?style=flat&logo=eslint&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/eslint.yml)
   [![Prettier](https://img.shields.io/badge/Format_with-Prettier-%23F7B93E?style=flat&logo=prettier&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/prettier.yml)
-  
-</div>
 
-<div text align="center">
-  
-  |Normal commentOut|This extention: commentPut|
-  |:---:|:---:|
-  |![commentOut](./image/commentout.gif)|![commentPut](./image/commentput.gif)|
-  
+  <img src="./image/commentout.gif" width=30% alt="alt commentout" title="Normal commentOut">
+  <img src="./image/commentput.gif" width=30% alt="alt commentput" title="This extention: commentPut">
+
   Simply insert a comment prefix where the cursor is positioned.
-  
+
   55 major languages are supported by default.
+
 </div>
 
 ## Getting started

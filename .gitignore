@@ -1,7 +1,0 @@
-.yarn/
-out/
-*.vsix
-.pnp.*
-.ssh/
-node_modules/
-package-lock.json

@@ -77,7 +77,7 @@
           "type": "object"
         }
       },
-      "title": "Commentput"
+      "title": "commentput"
     },
     "keybindings": [
       {
@@ -88,7 +88,7 @@
       }
     ]
   },
-  "description": "Insert comment snippets based on the current file's language",
+  "description": "Insert comment snippets based on the current file's language.",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/vscode": "^1.85.0",
@@ -107,7 +107,7 @@
     "typescript-eslint": "^8.47.0",
     "vsce": "^2.15.0"
   },
-  "displayName": "Commentput",
+  "displayName": "commentPut",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -116,7 +116,7 @@
   "publisher": "asumo-1xts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asumo-1xts1/vscode-commentput.git"
+    "url": "https://github.com/asumo-1xts/vscode-commentput.git"
   },
   "scripts": {
     "compile": "tsc -p ./",
@@ -126,7 +126,8 @@
     "pretest": "yarn compile && yarn lint",
     "test": "vscode-test",
     "vscode:prepublish": "yarn compile",
-    "watch": "yarn tsc -watch -p ./"
+    "watch": "yarn tsc -watch -p ./",
+    "publish": "yarn vsce publish --no-yarn"
   },
-  "version": "0.0.1"
+  "version": "0.0.6"
 }

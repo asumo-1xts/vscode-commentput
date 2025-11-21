@@ -4,14 +4,23 @@ commentPut - VScode extention
 
 <div align="center">
 
-**A simple alternative to `ctrl+/`.**
+<div align="center">
+  <img src="./image/logo.png" width="7.5%" style="vertical-align: middle;">
+  <span style="display: inline-block; margin-left: 15px; vertical-align: middle;">
+    <strong>A simple alternative to Ctrl+/.</strong>
+  </span>
+</div>
+
+<br/>
 
 [![Yarn](https://img.shields.io/badge/Built_with_Yarn-v4.9.2-%232C8EBB?logo=yarn&logoColor=white)](https://yarnpkg.com/)
 [![ESLint](https://img.shields.io/badge/Lint_with-ESLint-%234B32C3?style=flat&logo=eslint&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/eslint.yml)
 [![Prettier](https://img.shields.io/badge/Format_with-Prettier-%23F7B93E?style=flat&logo=prettier&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/prettier.yml)
 [![MIT](https://img.shields.io/badge/License-MIT-green)](/LICENSE)
 
-<!-- TODO: ここに比較の図 -->
+|Normal commentOut|This extention: commentPut|
+|:---:|:---:|
+|![commentOut](./image/commentout.gif)|![commentPut](./image/commentput.gif)|
 
 Simply insert a comment prefix where the cursor is positioned.
 
@@ -21,17 +30,17 @@ Simply insert a comment prefix where the cursor is positioned.
 
 ## Getting started
 
-Marketplace: https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput
+See [Marketplace](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput) or search `commentput` from VScode.
 
 Unless there are special circumstances, simply installing it is sufficient.
 
-Just press `ctrl+shift+/` in your source files.
+Just press `Ctrl+Shift+/` in your source files.
 
 ## Options
 
 ### Customize keybinding
 
-The keybinding is `ctrl+shift+/` (or `cmd+Shift+/`) by default.
+The keybinding is `Ctrl+Shift+/` (or `Cmd+Shift+/`) by default.
 
 You could assign it to an unused key on your keyboard.
 

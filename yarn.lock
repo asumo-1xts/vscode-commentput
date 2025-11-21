@@ -475,7 +475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/vscode@npm:^1.106.1":
+"@types/vscode@npm:^1.85.0":
   version: 1.106.1
   resolution: "@types/vscode@npm:1.106.1"
   checksum: 10c0/699bb2b1932cf885bc863d1a978eeb07f263150544f56eb7a2b59f4ed521e654f9a5f3357c5b3a45e56af07b876e7936140075ba4a2acaa9641a8ad8e0ab9f05
@@ -1188,7 +1188,7 @@ __metadata:
   resolution: "commentput@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.39.1"
-    "@types/vscode": "npm:^1.106.1"
+    "@types/vscode": "npm:^1.85.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.47.0"
     "@typescript-eslint/parser": "npm:^8.47.0"
     "@vscode/test-cli": "npm:^0.0.12"

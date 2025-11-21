@@ -13,8 +13,8 @@ commentPut - VScode extention
 
 <br/>
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/asumo-1xts.commentput?color=2F80ED&link=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dasumo-1xts.commentput)
-![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/asumo-1xts.commentput?color=2F80ED&link=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dasumo-1xts.commentput)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/asumo-1xts.commentput?color=2F80ED)](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
+[![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/asumo-1xts.commentput?color=2F80ED)](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
 [![MIT](https://img.shields.io/badge/License-MIT-green)](/LICENSE)
 
 [![Yarn](https://img.shields.io/badge/Built_with_Yarn-v4.9.2-%232C8EBB?logo=yarn&logoColor=white)](https://yarnpkg.com/)

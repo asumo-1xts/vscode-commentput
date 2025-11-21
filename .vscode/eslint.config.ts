@@ -10,8 +10,5 @@ export default defineConfig([
     extends: ['js/recommended'],
     languageOptions: { globals: globals.browser }
   },
-  tseslint.configs.recommended,
-  {
-    ignores: ['dist/', 'types/']
-  }
+  tseslint.configs.recommended
 ])

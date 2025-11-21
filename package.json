@@ -111,6 +111,7 @@
   "engines": {
     "vscode": "^1.85.0"
   },
+  "icon": "./image/logo.png",
   "main": "./out/extension.js",
   "name": "commentput",
   "publisher": "asumo-1xts",
@@ -123,12 +124,12 @@
     "docs": "yarn typedoc",
     "format": "yarn prettier --config .vscode/.prettierrc.json --write .config/*.json .github .vscode src *.json && rm -rf node_modules",
     "lint": "yarn eslint --config .vscode/eslint.config.ts src/**/*",
+    "package": "yarn vsce package --no-yarn",
     "pretest": "yarn compile && yarn lint",
+    "publish": "yarn vsce publish --no-yarn",
     "test": "vscode-test",
     "vscode:prepublish": "yarn compile",
-    "watch": "yarn tsc -watch -p ./",
-    "publish": "yarn vsce publish --no-yarn",
-    "package": "yarn vsce package --no-yarn"
+    "watch": "yarn tsc -watch -p ./"
   },
   "version": "0.0.6"
 }

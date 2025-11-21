@@ -4,7 +4,14 @@ commentPut - VScode extention
 
 <div align="center">
 
-**A simple alternative to `Ctrl+/`.**
+<div align="center">
+  <img src="./image/logo.png" width="7.5%" style="vertical-align: middle;">
+  <span style="display: inline-block; margin-left: 15px; vertical-align: middle;">
+    <strong>A simple alternative to Ctrl+/.</strong>
+  </span>
+</div>
+
+<br/>
 
 [![Yarn](https://img.shields.io/badge/Built_with_Yarn-v4.9.2-%232C8EBB?logo=yarn&logoColor=white)](https://yarnpkg.com/)
 [![ESLint](https://img.shields.io/badge/Lint_with-ESLint-%234B32C3?style=flat&logo=eslint&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/eslint.yml)

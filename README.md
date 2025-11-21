@@ -21,17 +21,9 @@ commentPut - VScode extention
 [![ESLint](https://img.shields.io/badge/Lint_with-ESLint-%234B32C3?style=flat&logo=eslint&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/eslint.yml)
 [![Prettier](https://img.shields.io/badge/Format_with-Prettier-%23F7B93E?style=flat&logo=prettier&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/prettier.yml)
 
-</div>
-
-<p align="center">
-
 |Normal commentOut|This extention: commentPut|
 |:---:|:---:|
 |![commentOut](./image/commentout.gif)|![commentPut](./image/commentput.gif)|
-
-</p>
-
-<div align="center">
 
 Simply insert a comment prefix where the cursor is positioned.
 

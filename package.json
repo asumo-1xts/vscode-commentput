@@ -91,19 +91,20 @@
   "description": "Insert comment snippets based on the current file's language.",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@types/vscode": "^1.85.0",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "@typescript-eslint/parser": "^6.15.0",
-    "@vscode/test-cli": "^0.0.4",
+    "@types/vscode": "^1.106.1",
+    "@typescript-eslint/eslint-plugin": "^8.47.0",
+    "@typescript-eslint/parser": "^8.47.0",
+    "@vscode/test-cli": "^0.0.12",
     "depcheck": "^1.4.7",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
     "jiti": "^2.6.1",
+    "npm-check-updates": "^19.1.2",
     "prettier": "^3.6.2",
     "tsc": "^2.0.4",
     "typedoc": "^0.28.14",
     "typedoc-theme-hierarchy": "^6.0.0",
-    "typescript": "^5.3.3",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.47.0",
     "vsce": "^2.15.0"
   },
@@ -131,5 +132,5 @@
     "vscode:prepublish": "yarn compile",
     "watch": "yarn tsc -watch -p ./"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }

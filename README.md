@@ -5,8 +5,8 @@ commentPut - VScode extention
 <div align="center">
 
 <div align="center">
-  <img src="./image/logo.png" width="7.5%" style="vertical-align: middle;">
-  <span style="display: inline-block; margin-left: 15px; vertical-align: middle;">
+  <img src="./image/logo.png" width="8%" style="vertical-align: middle;">
+  <span style="display: inline-block; margin-left: 4%; vertical-align: middle;">
     <strong>A simple alternative to Ctrl+/.</strong>
   </span>
 </div>

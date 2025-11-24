@@ -5,7 +5,7 @@
 
 <div align="center">
   
-  **A simple alternative to Ctrl+/.**
+  <strong>A simple alternative to Ctrl+/.</strong>
 
   [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/asumo-1xts.commentput?color=2F80ED)](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
   [![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/asumo-1xts.commentput?color=2F80ED)](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)

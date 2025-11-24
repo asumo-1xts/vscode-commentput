@@ -15,8 +15,8 @@
   [![ESLint](https://img.shields.io/badge/Lint_with-ESLint-%234B32C3?style=flat&logo=eslint&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/eslint.yml)
   [![Prettier](https://img.shields.io/badge/Format_with-Prettier-%23F7B93E?style=flat&logo=prettier&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/prettier.yml)
 
-  <img src="https://github.com/asumo-1xts/vscode-commentput/blob/main/image/commentout.gif?raw=true" width=45% alt="alt commentout" title="Normal - commentOut">
-  <img src="https://github.com/asumo-1xts/vscode-commentput/blob/main/image/commentput.gif?raw=true" width=45% alt="alt commentput" title="This extention - commentPut">
+  <img src="./image/commentout.gif" width=45% alt="alt commentout" title="Normal - commentOut">
+  <img src="./image/commentput.gif" width=45% alt="alt commentput" title="This extention - commentPut">
 
   Simply insert a comment prefix where the cursor is positioned.
 
@@ -26,7 +26,10 @@
 
 ## Getting started
 
-See [Marketplace](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput) or search `commentput` from VScode.
+Search `commentput` from VScode/VScodium or see below.
+
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
+- [Open VSX Registry](https://open-vsx.org/extension/asumo-1xts/commentput)
 
 Unless there are special circumstances, simply installing it is sufficient.
 

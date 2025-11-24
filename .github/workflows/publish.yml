@@ -1,3 +1,5 @@
+name: Publish to Marketplace
+
 on:
   pull_request:
     branches:
@@ -7,6 +9,7 @@ on:
     paths:
       - 'src/**'
       - 'package.json'
+  workflow_dispatch:
 
 jobs:
   publish-extention:

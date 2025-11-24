@@ -110,7 +110,6 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "files": ["README.md"],
   "icon": "image/logo.png",
   "main": "out/extension.js",
   "name": "commentput",
@@ -131,5 +130,5 @@
     "vscode:prepublish": "yarn compile",
     "watch": "yarn tsc -watch -p ./"
   },
-  "version": "0.2.0"
+  "version": "0.2.1"
 }

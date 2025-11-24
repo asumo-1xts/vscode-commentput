@@ -1,0 +1,11 @@
+# Ignore everything
+**
+
+# Include specific files
+!out/*
+!CONTRIBUTING.md
+!CHANGELOG.md
+!LICENSE
+!package.json
+!README.md
+!image/logo.png

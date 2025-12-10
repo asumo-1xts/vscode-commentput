@@ -110,7 +110,7 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "icon": "image/logo.png",
+  "icon": ".github/image/logo.png",
   "main": "out/extension.js",
   "name": "commentput",
   "publisher": "asumo-1xts",
@@ -130,5 +130,5 @@
     "vscode:prepublish": "yarn compile",
     "watch": "yarn tsc -watch -p ./"
   },
-  "version": "0.2.5"
+  "version": "0.2.6"
 }

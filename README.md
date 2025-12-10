@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./image/logo.png" width="5%">
+  <img src=".github/image/logo.png" width="5%" alt="alt logo">
   commentPut - VScode extention
 </h1>
 
@@ -15,8 +15,8 @@
   [![ESLint](https://img.shields.io/badge/Lint_with-ESLint-%234B32C3?style=flat&logo=eslint&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/eslint.yml)
   [![Prettier](https://img.shields.io/badge/Format_with-Prettier-%23F7B93E?style=flat&logo=prettier&logoColor=white&labelColor=gray)](https://github.com/asumo-1xts/vscode-commentput/actions/workflows/prettier.yml)
 
-  <img src="./image/commentout.gif" width=45% alt="alt commentout" title="Normal - commentOut">
-  <img src="./image/commentput.gif" width=45% alt="alt commentput" title="This extention - commentPut">
+  <img src=".github/image/commentout.gif" width=45% alt="alt commentout" title="Normal - commentOut">
+  <img src=".github/image/commentput.gif" width=45% alt="alt commentput" title="This extention - commentPut">
 
   Simply insert a comment prefix where the cursor is positioned.
 

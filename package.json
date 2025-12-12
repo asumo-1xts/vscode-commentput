@@ -121,7 +121,7 @@
   "scripts": {
     "compile": "tsc -p ./",
     "docs": "yarn typedoc",
-    "format": "yarn prettier --config .vscode/.prettierrc.json --write .config/*.json .github .vscode src *.json && rm -rf node_modules",
+    "format": "yarn prettier --config .vscode/.prettierrc.json --write .config/*.json .github/workflows .vscode src *.json && rm -rf node_modules",
     "lint": "yarn eslint --config .vscode/eslint.config.ts src/**/*",
     "package": "yarn vsce package --no-yarn",
     "pretest": "yarn compile && yarn lint",
